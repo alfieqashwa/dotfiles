@@ -20,7 +20,7 @@ return {
 	default_cwd = "/home/alfieqashwa/Code/",
 	adjust_window_size_when_changing_font_size = false,
 	-- Fonts
-	font = wezterm.font("FiraCode Nerd Font", { weight = "Bold", italic = false }),
+	font = wezterm.font("FiraCode Nerd Font", { weight = "DemiBold", italic = false }),
 	-- font_size = 12.0,
 	font_size = 13.0,
 	enable_tab_bar = true,
@@ -48,10 +48,10 @@ return {
 
 		-- You can adjust the hue by scaling its value.
 		-- a multiplier of 1.0 leaves the value unchanged.
-		hue = 0.1,
+		hue = 0.9,
 
 		-- You can adjust the saturation also.
-		saturation = 4.0,
+		saturation = 1.0,
 	},
 
 	-- color_scheme = "Firewatch",
