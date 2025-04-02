@@ -23,7 +23,7 @@ return {
 	font = wezterm.font("FiraCode Nerd Font", { weight = "Bold", italic = false }),
 	-- font_size = 12.0,
 	font_size = 13.0,
-	enable_tab_bar = false,
+	enable_tab_bar = true,
 	line_height = 1.0,
 
 	-- Colors
@@ -63,7 +63,7 @@ return {
 	color_scheme = "Chalk",
 
 	scrollback_lines = 3500,
-	default_prog = { "/bin/fish" },          -- set default shell to fish
-	hide_mouse_cursor_when_typing = true,    -- hide mouse cursor when typing in the panel
+	default_prog = { "/bin/fish" }, -- set default shell to fish
+	hide_mouse_cursor_when_typing = true, -- hide mouse cursor when typing in the panel
 	default_cursor_style = "SteadyUnderline", -- default cursor style is underline
 }
