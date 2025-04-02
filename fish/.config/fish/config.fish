@@ -50,7 +50,7 @@ alias crr='cargo rr'
 
 # NVM
 alias nu='nvm use'
-alias vi='nvim'
+alias v='nvim'
 # export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # PNPM
@@ -69,8 +69,8 @@ starship init fish | source
 # GOLANG
 # sc: https://gist.github.com/pierre-b/8c3d2d1722f5d88533142a37ade9ecfc
 
-set -g fish_user_paths "/usr/local/go/bin" $fish_user_paths
-set -x  GOPATH   $HOME/Code/personal/GO
+set -g fish_user_paths /usr/local/go/bin $fish_user_paths
+set -x GOPATH $HOME/Code/personal/GO
 set -x PATH $PATH $GOPATH/bin
 
 export FLYCTL_INSTALL="/home/alfieqashwa/.fly"
@@ -82,7 +82,7 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 # pnpm
 set -gx PNPM_HOME "/home/alfieqashwa/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
 
