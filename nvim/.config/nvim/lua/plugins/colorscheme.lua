@@ -4,8 +4,8 @@ return {
   name = "catppuccin",
   opts = {
     integrations = {
-      aerial = true,
       alpha = true,
+      aerial = true,
       cmp = true,
       dashboard = true,
       flash = true,
