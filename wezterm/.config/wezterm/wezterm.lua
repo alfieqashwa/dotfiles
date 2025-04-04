@@ -40,7 +40,7 @@ return {
 	-- window_background_image = "/home/alfieqashwa/Downloads/blur.jpg",
 	-- window_background_image = "/home/alfieqashwa/Pictures/Radiohead-wallpaper.jpg",
 	window_background_opacity = 0.1,
-	text_background_opacity = 0.4,
+	text_background_opacity = 0.5,
 
 	window_decoration = "RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
