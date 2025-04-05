@@ -50,7 +50,7 @@ alias crr='cargo rr'
 
 # NVM
 alias nu='nvm use'
-alias v='nvim'
+alias vi='nvim'
 # export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # PNPM
