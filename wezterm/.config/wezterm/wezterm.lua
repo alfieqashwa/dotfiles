@@ -35,14 +35,14 @@ return {
 	},
 
 	-- Backgrounds
-	window_background_opacity = 0.4,
-	text_background_opacity = 0.5,
+	window_background_opacity = 1.0,
+	text_background_opacity = 0.3,
 
 	window_decoration = "RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
 
-	-- window_background_image = "/home/alfieqashwa/Pictures/wezterm-images/bg-blurred-darker.png",
-	window_background_image = "/home/alfieqashwa/Downloads/blur.jpg",
+	window_background_image = "/home/alfieqashwa/Pictures/wezterm-images/bg-blurred-darker.png",
+	-- window_background_image = "/home/alfieqashwa/Downloads/blur.jpg",
 	-- window_background_image = "/home/alfieqashwa/Pictures/Radiohead-wallpaper.jpg",
 	-- window_background_image = "/usr/share/backgrounds/enddeavourOS.jpeg",
 	-- window_background_image_hsb = {
