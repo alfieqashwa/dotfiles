@@ -35,8 +35,8 @@ return {
 	},
 
 	-- Backgrounds
-	window_background_opacity = 1.0,
-	text_background_opacity = 0.3,
+	window_background_opacity = 2.0,
+	text_background_opacity = 0.4,
 
 	window_decoration = "RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
@@ -70,7 +70,7 @@ return {
 	-- color_scheme = "Catppuccin Mocha (Gogh)",
 	-- color_scheme = "Duotone Dark",
 
-	scrollback_lines = 2500, -- default is 3500
+	scrollback_lines = 3500, -- default is 3500
 	default_prog = { "/bin/fish" }, -- set default shell to fish
 	hide_mouse_cursor_when_typing = true, -- hide mouse cursor when typing in the panel
 	default_cursor_style = "SteadyUnderline", -- default cursor style is underline
