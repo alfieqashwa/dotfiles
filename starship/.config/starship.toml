@@ -1,9 +1,11 @@
-add_newline = false
+add_newline = true
 # A minimal left prompt
-format = """$directory$character"""
+# format = """$directory$character"""
+# format = """$character"""
 palette = "catppuccin_mocha"
+
 # move the rest of the prompt to the right
-right_format = """$all"""
+# right_format = """$all"""
 command_timeout = 1000
 
 # ENV
@@ -25,10 +27,9 @@ commit_hash_length = 4
 tag_symbol = "🔖 "
 
 [git_state]
-format = '[\($state( $progress_current of $progress_total)\)]($style) '
 style = "bright-black"
 cherry_pick = "[🍒 PICKING](bold red)"
-# format = '\([$state( $progress_current/$progress_total)]($style)\) '
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
 
 [git_metrics]
 added_style = "bold blue"
@@ -107,7 +108,6 @@ powershell_indicator = "_"
 unknown_indicator = "mystery shell"
 style = "cyan bold"
 disabled = true
-
 
 format = """
 $username\

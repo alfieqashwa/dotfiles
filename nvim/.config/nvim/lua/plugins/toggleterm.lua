@@ -7,9 +7,8 @@ return {
       terminal = {
         win = {
           position = "float",
-          -- width = 0.6,
           -- width = 0.9,
-          height = 0.6,
+          height = 0.7,
           zindex = 50,
           wo = {
             spell = false,
@@ -23,7 +22,7 @@ return {
     },
   },
 }
--- {
+-- return {
 --   "akinsho/toggleterm.nvim",
 --   config = true,
 --   cmd = "ToggleTerm",
@@ -38,4 +37,4 @@ return {
 --     start_in_insert = true,
 --     close_on_exit = true,
 --   },
--- },
+-- }

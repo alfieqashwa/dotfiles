@@ -2,6 +2,7 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = true,
+    name = "tokyonight",
     priority = 1000,
     opts = {
       transparent = true,
