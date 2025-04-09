@@ -3,7 +3,7 @@ return {
     "folke/tokyonight.nvim",
     lazy = true,
     name = "tokyonight",
-    priority = 1000,
+    -- priority = 1000,
     opts = {
       transparent = true,
       styles = "moon",
@@ -26,6 +26,7 @@ return {
     "catppuccin/nvim",
     lazy = true,
     name = "catppuccin",
+    priority = 1000,
     opts = {
       integrations = {
         aerial = true,
