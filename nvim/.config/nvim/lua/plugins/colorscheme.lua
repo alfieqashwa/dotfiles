@@ -3,7 +3,7 @@ return {
     "folke/tokyonight.nvim",
     lazy = true,
     name = "tokyonight",
-    -- priority = 1000,
+    priority = 1000,
     opts = {
       transparent = true,
       styles = "moon",
@@ -26,7 +26,7 @@ return {
     "catppuccin/nvim",
     lazy = true,
     name = "catppuccin",
-    priority = 1000,
+    -- priority = 1000,
     opts = {
       integrations = {
         aerial = true,
@@ -73,7 +73,8 @@ return {
         optional = true,
         opts = function(_, opts)
           if (vim.g.colors_name or ""):find("catppuccin") then
-            opts.highlights = require("catppuccin.groups.integrations.bufferline").get()
+            opts.highlights =
+              require("catppuccin.groups.integrations.bufferline").get()
           end
         end,
       },
