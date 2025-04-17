@@ -22,7 +22,7 @@ return {
 	--
 	-- Fonts
 	font = wezterm.font("FiraCode Nerd Font", { weight = "DemiBold", italic = false }),
-	font_size = 12.0,
+	font_size = 13.0,
 	enable_tab_bar = true,
 	line_height = 1.0,
 
@@ -36,25 +36,25 @@ return {
 
 	-- Backgrounds
 	window_background_opacity = 0.9,
-	-- text_background_opacity = 0.5,
+	text_background_opacity = 0.1,
 
 	window_decoration = "RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
 
 	-- window_background_image = "/home/alfieqashwa/Pictures/wezterm-images/bg-blurred-darker.png",
-	-- window_background_image = "/home/alfieqashwa/Downloads/blur.jpg",
+	window_background_image = "/home/alfieqashwa/Downloads/blur.jpg",
 	-- window_background_image = "/home/alfieqashwa/Pictures/Radiohead-wallpaper.jpg",
 	-- window_background_image = "/usr/share/backgrounds/enddeavourOS.jpeg",
-	-- window_background_image_hsb = {
+	window_background_image_hsb = {
 
-	-- 	-- You can adjust the hue by scaling its value.
-	-- 	-- a multiplier of 1.0 leaves the value unchanged.
-	-- 	hue = 3.0,
-	-- 	-- You can adjust the saturation also.
-	-- 	saturation = 1.1,
-	-- 	-- Darken the background image by reducing it to 1/3rd
-	-- 	brightness = 0.06,
-	-- },
+		-- You can adjust the hue by scaling its value.
+		-- a multiplier of 1.0 leaves the value unchanged.
+		hue = 3.0,
+		-- You can adjust the saturation also.
+		saturation = 1.1,
+		-- Darken the background image by reducing it to 1/3rd
+		brightness = 0.06,
+	},
 
 	-- window_padding = {
 	-- 	left = 3,
