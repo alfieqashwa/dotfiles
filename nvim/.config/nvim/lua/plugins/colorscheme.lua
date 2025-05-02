@@ -2,16 +2,8 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = true,
-    name = "tokyonight",
     priority = 1000,
-    opts = {
-      transparent = true,
-      styles = "moon",
-      -- styles = {
-      --   sidebars = "transparent",
-      --   floats = "transparent",
-      -- },
-    },
+    opts = { style = "moon" },
   },
   {
     "craftzdog/solarized-osaka.nvim",
