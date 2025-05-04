@@ -22,7 +22,7 @@ return {
 	--
 	-- Fonts
 	font = wezterm.font("FiraCode Nerd Font", { weight = "DemiBold", italic = false }),
-	font_size = 13.0,
+	font_size = 14.0,
 	enable_tab_bar = true,
 	line_height = 1.0,
 
