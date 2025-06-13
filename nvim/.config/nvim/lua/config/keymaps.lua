@@ -4,3 +4,6 @@
 
 -- go to normal mode from insert mode -> "jk"
 vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
+vim.keymap.set("i", "<C-a>", function()
+  require("cmp").complete({ config = { sources = { { name = "cody" } } } })
+end, { desc = "Cody Completion" })
