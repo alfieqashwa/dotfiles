@@ -31,6 +31,26 @@ alias gconflict='git diff --name-only --diff-filter=U'
 alias gclean='git clean -df' # clean all untracked directories and files
 alias ggeturl='git remote get-url origin' # clean all untracked directories and files
 
+# PNPM
+alias pn='pnpm'
+
+# pnpm start
+set -gx PNPM_HOME "/home/alfieqashwa/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
+
+# DOCKER
+alias dstart='docker start'
+alias dstop='docker stop'
+alias dps='docker ps'
+
+# CURSOR IDE
+alias c='cursor'
+
+starship init fish | source
+
 # CARGO RUST
 # n = "new"
 alias cn='cargo new'
@@ -48,24 +68,6 @@ alias cr='cargo r'
 # rr = "run --release"
 alias crr='cargo rr'
 
-# NVM
-alias nu='nvm use'
-alias vi='nvim'
-# export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
-
-# PNPM
-alias pn='pnpm'
-
-# DOCKER
-alias dstart='docker start'
-alias dstop='docker stop'
-alias dps='docker ps'
-
-# CURSOR IDE
-alias c='cursor'
-
-starship init fish | source
-
 # GOLANG
 # sc: https://gist.github.com/pierre-b/8c3d2d1722f5d88533142a37ade9ecfc
 
@@ -79,19 +81,22 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 # untuk konfigursi private repo
 # export GOPRIVATE="bitbucket.org/infradigitalnusantara"
 
-# pnpm
-set -gx PNPM_HOME "/home/alfieqashwa/.local/share/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-    set -gx PATH "$PNPM_HOME" $PATH
-end
-# pnpm end
-
-# bun
+# BUN
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
 
-# Python
+# PYTHON
 alias pyt='python'
 
 # NEOVIM
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
+# SHORTCUTS
+alias vi='nvim'
+alias nvc='~/dotfiles/nvim/.config/nvim/ && nvim'
+alias qc='~/Code/personal/PROJECT/qozycue && nvim'
+alias ship='nvim ~/dotfiles/starship/.config/starship.toml'
+
+
+
+# ENDS

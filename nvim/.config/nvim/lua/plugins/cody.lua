@@ -14,7 +14,7 @@ return {
     },
     config = function()
       require("sg").setup({
-        enable_cody = true, -- Enable Cody integration
+        enable_cody = false, -- Enable Cody integration
         cody = {
           chat = {
             keymaps = {

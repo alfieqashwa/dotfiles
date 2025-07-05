@@ -9,6 +9,8 @@ return {
           position = "float",
           -- width = 0.9,
           height = 0.7,
+          border = "rounded",
+          backdrop = 60,
           zindex = 50,
           wo = {
             spell = false,

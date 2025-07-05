@@ -22,7 +22,7 @@ return {
 	--
 	-- Fonts
 	font = wezterm.font("FiraCode Nerd Font", { weight = "DemiBold", italic = false }),
-	font_size = 12.5,
+	font_size = 12.3,
 	line_height = 1.05,
 
 	-- Colors
@@ -62,12 +62,12 @@ return {
 	-- },
 	-- === ENDS MODIFY ===
 
-	-- window_padding = {
-	-- 	left = 3,
-	-- 	right = 3,
-	-- 	top = 3,
-	-- 	bottom = 3,
-	-- },
+	window_padding = {
+		left = 2,
+		right = 2,
+		top = 2,
+		bottom = 2,
+	},
 
 	-- color_scheme = "Chalk",
 	-- color_scheme = "Firewatch",

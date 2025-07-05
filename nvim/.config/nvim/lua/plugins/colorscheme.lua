@@ -69,7 +69,7 @@ return {
   },
   {
     "folke/tokyonight.nvim",
-    lazy = true,
+    lazy = false,
     priority = 1000,
     opts = {
       style = "moon",
@@ -82,7 +82,7 @@ return {
   {
     "tiagovla/tokyodark.nvim",
     lazy = true,
-    priority = 1000,
+    -- priority = 1000,
     opts = {
       -- custom options here
       transparent_background = false, -- set background to transparent
