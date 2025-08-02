@@ -95,7 +95,8 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 alias vi='nvim'
 alias nvc='~/dotfiles/nvim/.config/nvim/ && nvim'
 alias qc='~/Code/personal/PROJECT/qozycue && nvim'
-alias ship='nvim ~/dotfiles/starship/.config/starship.toml'
+alias wez='nvim ~/dotfiles/wezterm/.config/wezterm/wezterm.lua'
+alias war='warp-terminal'
 
 
 
