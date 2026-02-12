@@ -22,7 +22,7 @@ return {
 	--
 	-- Fonts
 	font = wezterm.font("FiraCode Nerd Font", { weight = "DemiBold", italic = false }),
-	font_size = 12.7,
+	font_size = 14.7,
 	line_height = 1.05,
 
 	-- Colors
@@ -39,7 +39,7 @@ return {
 	-- text_background_opacity = 0.4,
 	-- === ENDS MODIFY ===
 
-	window_decoration = "RESIZE",
+	window_decorations = "RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
 	hide_mouse_cursor_when_typing = true, -- hide mouse cursor when typing in the panel
 	-- enable_tab_bar = true,

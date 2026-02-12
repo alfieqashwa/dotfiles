@@ -1,3 +1,22 @@
+# pyenv setup
+set -Ux PYENV_ROOT $HOME/.pyenv
+fish_add_path $PYENV_ROOT/bin
+
+# Initialize pyenv
+if command -v pyenv >/dev/null
+    pyenv init - | source
+end
+
+alias pn='pnpm'
+
+# pnpm start
+set -gx PNPM_HOME "/home/alfieqashwa/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
+
+
 # if status is-interactive
 #   cd $HOME/Code
 # end
@@ -30,16 +49,6 @@ alias greset='git reset --soft HEAD~1'
 alias gconflict='git diff --name-only --diff-filter=U'
 alias gclean='git clean -df' # clean all untracked directories and files
 alias ggeturl='git remote get-url origin' # clean all untracked directories and files
-
-# PNPM
-alias pn='pnpm'
-
-# pnpm start
-set -gx PNPM_HOME "/home/alfieqashwa/.local/share/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-    set -gx PATH "$PNPM_HOME" $PATH
-end
-# pnpm end
 
 # DOCKER
 alias dstart='docker start'
@@ -97,7 +106,9 @@ alias nvc='~/dotfiles/nvim/.config/nvim/ && nvim'
 alias qc='~/Code/personal/PROJECT/qozycue && nvim'
 alias wez='nvim ~/dotfiles/wezterm/.config/wezterm/wezterm.lua'
 alias war='warp-terminal'
+alias upnv='~/dotfiles/update_nvim.sh'
 
-
-
-# ENDS
+# FNM (Alternative NVM for Fish User)
+# FNM init
+fnm env | source
+fnm env --use-on-cd | source
