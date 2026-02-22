@@ -102,11 +102,12 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # SHORTCUTS
 alias vi='nvim'
-alias nvc='~/dotfiles/nvim/.config/nvim/ && nvim'
-alias qc='~/Code/personal/PROJECT/qozycue && nvim'
-alias wez='nvim ~/dotfiles/wezterm/.config/wezterm/wezterm.lua'
-alias war='warp-terminal'
 alias upnv='~/dotfiles/update_nvim.sh'
+alias nvc='~/dotfiles/nvim/.config/nvim/ && nvim'
+alias wez='nvim ~/dotfiles/wezterm/.config/wezterm/wezterm.lua'
+alias qc='~/Code/personal/PROJECT/qozycue && nvim'
+alias war='warp-terminal'
+alias brain='~/Code/personal/obsidian/brain && nvim' # my obsidian vault called 'brain'
 
 # FNM (Alternative NVM for Fish User)
 # FNM init
